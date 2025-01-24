@@ -13,8 +13,8 @@ const logger = winston.createLogger({
         useNewUrlParser: true,
         useUnifiedTopology: true
       },
-      collection: 'logs', // Collection name in MongoDB
-      level: 'silly' // Log level
+      collection: 'logs',
+      level: '1' 
     })
 ],
 });
